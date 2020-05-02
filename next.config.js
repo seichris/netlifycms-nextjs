@@ -8,10 +8,4 @@ module.exports = {
     });
     return configuration;
   },
-  async exportPathMap(defaultPathMap) {
-    return {
-      ...defaultPathMap,
-      ...getPathsForPosts(),
-    };
-  },
 };
